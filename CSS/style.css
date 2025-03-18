@@ -9,7 +9,6 @@ body{
 
 .grover a{
     display: inline-block;
-    margin-top: 30vh;
     padding: 20px 30px;
     background-color: red;
     color: yellow;
@@ -41,10 +40,76 @@ body{
         4px -4px 0px blue, 
         -4px 4px 0px blue; 
 }
+
 .p1{
     font-family: 'Trajan', sans-serif;
-    margin-top: 40px;
+    margin-top: 30px;
     font-size: 25px;
     font-weight: bold;
     color: white;
+}
+
+.p2{
+    display: inline-block;
+    padding: 15px 25px;
+    background-color: blue;
+    color: white;
+    text-decoration: none !important;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Trajan', sans-serif;
+    margin-top: 20px;
+}
+
+.p2:hover{
+    background-color: darkblue;
+}
+
+.text {
+    text-align: justify;
+    line-height: 1.6; 
+    font-size: 18px; 
+    font-family: "Trajan", sans-serif; 
+    color: #333; 
+    max-width: 800px; 
+    margin: 20px auto; 
+    padding: 10px;
+}
+
+.text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    text-align: left;
+}
+
+
+.text-container img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin-left: 10vh;
+}
+
+.text-container .text {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 500px;
+}
+
+.text-container p i {
+    display: block;
+    font-style: italic;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+
+video {
+    width: 100%;
+    max-width: 380px;
+    border-radius: 10px;
 }
