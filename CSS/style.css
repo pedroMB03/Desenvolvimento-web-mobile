@@ -9,12 +9,14 @@ body{
 
 .grover a{
     display: inline-block;
-    padding: 10px 20px;
+    margin-top: 30vh;
+    padding: 20px 30px;
     background-color: red;
     color: yellow;
     text-decoration: none;
     font-weight: bold;
-    border-radius: 6px;
+    border-radius: 10px;
+    font-size: 20px;
     text-align: center;
     font-family: 'MinhaFonte', sans-serif;
 }
@@ -38,4 +40,11 @@ body{
         -4px -4px 0px blue, 
         4px -4px 0px blue, 
         -4px 4px 0px blue; 
+}
+.p1{
+    font-family: 'Trajan', sans-serif;
+    margin-top: 40px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
 }
