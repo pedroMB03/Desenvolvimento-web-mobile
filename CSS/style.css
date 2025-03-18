@@ -24,6 +24,13 @@ body{
     background-color: darkred;
 }
 
+.grover-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px; 
+    z-index: 10;
+}
+
 @font-face {
     font-family: MinhaFonte;
     src: url(/fonte/ToyStory.otf) format('truetype');
@@ -91,7 +98,8 @@ body{
     width: 200px;
     height: 200px;
     border-radius: 10px;
-    margin-left: 10vh;
+    margin-left: 32vh;
+    margin-top: -40vh;
 }
 
 .text-container .text {
@@ -112,4 +120,6 @@ video {
     width: 100%;
     max-width: 380px;
     border-radius: 10px;
+    margin-left: 20vh;
+    margin-top: -40vh;
 }
