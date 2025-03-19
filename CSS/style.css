@@ -25,10 +25,24 @@ body{
 }
 
 .grover-btn {
+    display: inline-block;
+    padding: 15px 25px;
+    background-color: red;
+    color: yellow;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'MinhaFonte', sans-serif;
     position: absolute;
     top: 20px;
     right: 20px; 
     z-index: 10;
+}
+
+.grover-btn:hover{
+    background-color: darkred;
 }
 
 @font-face {
