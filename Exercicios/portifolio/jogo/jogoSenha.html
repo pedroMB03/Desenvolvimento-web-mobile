@@ -8,15 +8,20 @@
 </head>
 <body>
     <header>
-        <a href="../index.html">Voltar</a>
+        <div class="voltar">
+            <a href="../index.html">Voltar</a>
+        </div>
         <h2>Jogo da Senhar | Bulls and Cows</h2>
     </header>
     <section>
         <div class="jogo">
+            <p>Tentativas restantes: <span id="tentativasRestantes">10</span></p>
             <p>Digite um número de 4 dígitos!</p>
             <input type="text" id="tentativa" placeholder="Ex: 1234" maxlength="4">
-            <button onclick="verificarTentativa()">Enviar</button>
-            <button onclick="reiniarJogo()">Recomeçar</button>
+            <div class="botoes">
+                <button onclick="verificarTentativa()">Enviar</button>
+                <button onclick="reiniarJogo()">Recomeçar</button>
+            </div>
         </div>
         <p>Tentativas anteriores</p>
         <ul class="tentivasAnteriores" id="listaTentativas"></ul>
