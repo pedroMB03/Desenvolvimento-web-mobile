@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Jogo Bulls and Cows</title>
+</head>
+<body>
+    <header>
+        <div class="voltar">
+            <a href="../index.html">Voltar</a>
+        </div>
+        <h2>Jogo da Senhar | Bulls and Cows</h2>
+    </header>
+    <section>
+        <div class="jogo">
+            <p>Tentativas restantes: <span id="tentativasRestantes">10</span></p>
+            <p>Digite um número de 4 dígitos!</p>
+            <input type="text" id="tentativa" placeholder="Ex: 1234" maxlength="4">
+            <div class="botoes">
+                <button onclick="verificarTentativa()">Enviar</button>
+                <button onclick="reiniarJogo()">Recomeçar</button>
+            </div>
+        </div>
+        <p>Tentativas anteriores</p>
+        <ul class="tentivasAnteriores" id="listaTentativas"></ul>
+    </section>
+    <script src="./jogoSenha.js"></script>
+</body>
+</html>
